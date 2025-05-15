@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px;
+  gap: 32px;
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #a10000;
+}
+
+.serving-suggestion {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  gap: 24px;
+}
+
+.serving-suggestion-image {
+  min-width: 300px;
+  width: 100%;
+  height: 467px;
+  object-fit: cover;
+}
