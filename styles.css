@@ -15,10 +15,21 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  line-height: 100%;
+
   width: 100%;
+}
+
+ul,
+ol,
+li,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .header-image {
@@ -37,10 +48,36 @@ body {
 }
 
 .title {
+  margin: 0;
   font-size: 40px;
   font-weight: 700;
-  line-height: 100%;
   color: #a10000;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #000000;
+}
+
+.serving-size {
+  font-size: 32px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 16px;
+  width: 100%;
+}
+
+ul,
+ol {
+  margin-left: 16px;
+  padding-left: 16px;
 }
 
 .serving-suggestion {
