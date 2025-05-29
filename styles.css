@@ -68,15 +68,7 @@ p {
 }
 
 .subtitle-secondary {
-  font-size: 32px;
   font-weight: 400;
-}
-
-.ingredients {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  width: 100%;
 }
 
 .serving-suggestion-images {
@@ -96,11 +88,6 @@ p {
   .main-content {
     padding-left: 64px;
     padding-right: 64px;
-  }
-
-  .ingredients {
-    flex-direction: row;
-    gap: 16px;
   }
 
   .serving-suggestion-images {
